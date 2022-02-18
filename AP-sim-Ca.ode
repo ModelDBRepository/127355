@@ -30,10 +30,6 @@ dn/dt = an*(1-n) - bn*n
 dmca/dt = amca*(1-mca) - bmca*mca
 dv/dt = (-ina-ik-ica-ikleak-inaleak+Io)/Cm
 
-aux ina=ina
-aux ik=ik
-aux ica=ica
-
 #  Numerical and plotting parameters for xpp
 @ meth=Euler, dt=0.01, total=20, xlo=0, xhi=20, ylo=-80, yhi=60
 @ bounds=100000
